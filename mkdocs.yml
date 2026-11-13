@@ -3,5 +3,8 @@ nav:
   - Overview: index.md
   - Architecture and gates: architecture.md
   - Reproduce: reproduce.md
+  - Replace integrations: replace-integrations.md
+  - Real container deployment: real-deployment.md
+  - Post-setup checklist: post-setup-checklist.md
   - Operations: operations.md
   - Implementation status: status.md
