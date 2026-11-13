@@ -85,14 +85,6 @@ live deployment and rollback have not been verified end to end. Real vendor,
 QA, and change-management integrations are [replacement guidance](docs/replace-integrations.md),
 not implemented controls.
 
-As of 2026-11-13, the related changes in
-[cicd-demo-org/required-workflows#1](https://github.com/cicd-demo-org/required-workflows/pull/1),
-[cicd-demo-org/required-workflows#2](https://github.com/cicd-demo-org/required-workflows/pull/2),
-[cicd-demo-org/nodejs-demo-app#2](https://github.com/cicd-demo-org/nodejs-demo-app/pull/2),
-[cicd-demo-org/governance-docs#1](https://github.com/cicd-demo-org/governance-docs/pull/1),
-and [cicd-demo-org/admin#1](https://github.com/cicd-demo-org/admin/pull/1) are merged into
-their respective `main` branches; none of those five PRs remains open.
-
 Start with the [overview](docs/index.md), then see
 [architecture and gates](docs/architecture.md),
 [reproduction](docs/reproduce.md),
