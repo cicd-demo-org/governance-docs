@@ -1,0 +1,7 @@
+site_name: CI/CD delivery demo
+nav:
+  - Overview: index.md
+  - Architecture and gates: architecture.md
+  - Reproduce: reproduce.md
+  - Operations: operations.md
+  - Implementation status: status.md
