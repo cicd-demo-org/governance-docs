@@ -27,8 +27,14 @@ independent approvals.
 
 Real implementation requires replacing each adapter with an independently
 reviewed integration that validates authenticated, fresh, exact-revision and
-exact-artifact evidence, nonpassing/unknown states, and service errors. Add
-real quality thresholds (including new-code coverage), protected credentials,
-artifact provenance, policy enforcement, change windows, independent role
-approvals, rollback, and deployment authorization before any real deployment.
-Never route this simulation into real infrastructure.
+exact-artifact evidence, nonpassing/unknown states, and service errors.
+[Replacement instructions](replace-integrations.md) explain the work; they
+are not completed integrations. Never route synthetic passes into a real
+deployment gate.
+
+A separate [opt-in container example](real-deployment.md) demonstrates GHCR
+publication, a signed build attestation, environment approval, digest-based
+deployment and bounded rollback on a dedicated host. It does **not** implement
+vendor qualification, real change approval, role-separated approvals, or a
+production-ready controller. It must not be used as evidence that those
+requirements are met.

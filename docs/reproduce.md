@@ -19,6 +19,9 @@
 
    The setup script owns only its named team, variable, app environments, and
    ruleset, but updates them if they already exist. Review it before running.
+   The `prod` reviewer is the individual passed to `--approver`, not the
+   `demo-release-reviewers` team; the demo permits self-approval. The team is
+   created and the individual added to it, but is not assigned as reviewer.
    For a different organization verify repository and Actions settings and
    account permissions first. Safe-settings is optional and is not installed.
 5. Open an application pull request. Confirm both organization-required
@@ -30,4 +33,5 @@
    successful simulation does not establish a production-ready control.
 
 See [operations](operations.md) for troubleshooting and [status](status.md)
-before adapting this example.
+before adapting this example. For a separate, optional real container example,
+see [real deployment](real-deployment.md).

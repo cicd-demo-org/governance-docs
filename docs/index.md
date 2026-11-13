@@ -14,4 +14,7 @@ external vendor accounts or deployment secrets.
 
 **Simulation only:** passing synthetic results do not prove security, quality,
 change approval, or a real deployment. See [architecture](architecture.md),
-[reproduction](reproduce.md), and [implementation status](status.md).
+[reproduction](reproduce.md), [integration replacement](replace-integrations.md),
+[the optional real deployment example](real-deployment.md),
+[the post-setup checklist](post-setup-checklist.md), and
+[implementation status](status.md).
